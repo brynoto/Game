@@ -1,0 +1,97 @@
+
+body, html {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.main {
+	background-image: url(../img/main-bg.gif);
+	height: 100%;
+	background-size: cover;
+	z-index: -200;
+	background-repeat: no-repeat;
+}
+
+
+.game {
+	background-image: url(../img/game-bg.gif);
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#mainh1 {
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#startbtn {
+	margin-top: 100px;
+}
+
+#playerbtn1, #playerbtn2 {
+	margin-left: 250px;
+}
+
+#playerimg {
+	/*margin-left: 20px;*/
+	padding-top: 30px;
+	width: 100%;
+}
+
+#rules{
+background-image: url(../img/rules.gif);
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.card-img-top {
+	width: 400px;
+	height: 300px;
+}
+
+.rules1 {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+hr {
+	border: 3px solid blue;
+
+}
+
+h2 {
+	color: white;
+}
+
+
+#wheel {
+	width: 50%;
+	height: 300px;
+	background-repeat: no-repeat;
+	margin-left: 260px;
+	margin-top: 15px;
+}
+
+.score {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+}
+
+#win1, #win2 {
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+.display-3 {
+	color: white;
+	font-weight: bold;
+}
